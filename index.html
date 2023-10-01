@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/"><i class="fa fa-home" style="font-size: 40px;"><br></i></a></li>
+                    <li><a href="/intro.html"><i class="fa fa-user" style="font-size: 40px;"><br></i></a></li>
+                    <!-- <li><a href="/services.html">Services</a></li> -->
+                    <li><a href="/projects.html"><i class="fa fa-pencil" style="font-size: 40px;"><br></i></a></li>
+                    <li><a href="/contact.html"><i class="fa fa-phone" style="font-size: 40px;"><br></i></a></li>
+
+                </ul>
+            </nav>
+
+        </div>
+        <div class="main">
+            <div class="menubtn">
+                <!-- <img class="menu" src="menu3.png.crdownload" width="23"> -->
+                <img class="menu" src="menu22.jpeg" width="23">
+                <img class="cross" src="cross6.jpg" width="23">
+
+            </div>
+            <div class="infoContainer">
+                <div class="mydesc">
+                   
+                    <div class="hello"><span class="hello2">Hey,</span>Its me</div> 
+                    <div class="name"><span class="hello2">Sai Meghana</span></div>
+                    <div class="about">I'm a <span class="multitext"></span></div>
+                    <div class="buttons">
+                        <a href="Meghana's Resume.pdf" download="Resume"><button>Download Resume</button></a>
+                        <!-- <button type="btn btn-primary">More Info</button> -->
+                    </div>
+                </div>
+                <div class="mypic">
+                    <img src="profile3.jpg"/>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+  <!-- Load library from the CDN -->
+  
+  <!-- Setup and start animation! -->
+  
+    
+</body>
+<script src="index.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed=new Typed('.multitext',{
+        strings:['Computer Science<br>Student','Web Developer','Programmer'],
+        typeSpeed:60,
+        backSpeed:50,
+        backDelay:1000,
+        loop:true
+    });
+  </script>
+</html>
